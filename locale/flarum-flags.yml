@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Báo cáo
+      view_flags_label: Xem báo cáo
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: URL Nguyên tắc cộng đồng
+      title: Cài đặt báo cáo
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Cảm ơn bạn đã báo cáo điều này. Người điều hành của chúng tôi sẽ xem xét nó.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Không thích hợp
+      reason_inappropriate_text: "Bài đăng này gây khó chịu, lạm dụng hoặc vi phạm <a> nguyên tắc cộng đồng của chúng tôi</a>."
+      reason_off_topic_label: "Lý do"
+      reason_off_topic_text: Câu hỏi này này không liên quan đến các câu hỏi hiện tại và nên được chuyển đi nơi khác.
+      reason_other_label: Lý do khác
+      reason_spam_label: Spam
+      reason_spam_text: Bài này là một quảng cáo.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Không có báo cáo
+      item_text: "{username} trong <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Bỏ qua báo cáo
+      flagged_by_text: "Báo cáo bởi {username}"
+      flagged_by_with_reason_text: "Báo cáo bởi {username} với lý do {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Báo cáo
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Báo cáo
+    flagged_posts: Đã báo cáo
