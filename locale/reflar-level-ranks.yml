@@ -1,0 +1,11 @@
+reflar-level-ranks:
+  admin:
+    settings:
+      title: Cài đặt xếp hạng kinh nghiệm
+      levelText: Nhập văn bản sẽ được hiển thị cho các điểm (e.g. Rank, Level)
+  forum:
+    desc:
+      expText: EXP
+  lib:
+    defaults:
+      level: Level
