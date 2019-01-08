@@ -1,0 +1,67 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Xu hướng
+      
+reflar-gamification:
+  forum:
+    vote_title: Xem ai đã đánh giá
+    nav:
+      name: Xếp hạng
+    ranking:
+      rank: Thứ hạng
+      name: Thành Viên
+      amount: Điểm
+    notification:
+      upvote: "{username} đã đẩy lên trả lời của bạn"
+      downvote: "{username} đã dìm xuống trả lời của bạn"
+    user:
+      points: "Điểm: {points}"
+      rank: "{rank}"
+    modal:
+      title: Người đánh giá
+      upvotes_label: 'Người đẩy lên:'
+      downvotes_label: 'Người dìm xuống:'
+    mod_item: Xem người đánh giá
+  admin:
+    permissions:
+      vote_label: Đẩy lên/Dìm xuống trả lời
+      see_votes_label: Xem trả lời đẩy lên/dìm xuống
+      see_ranking_page: Xem trang xếp hạng
+    nav:
+      desc: Gamification for your Flarum community
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: Bỏ qua thành viên
+          help: Những người dùng này sẽ không được hiển thị trên trang xếp hạng. Tên người dùng nên được phân tách bằng dấu phẩy theo sau là khoảng trắng.
+        title: Bảng xếp hạng
+        enable: Cho phép tùy chỉnh hình ảnh
+        custom_image_1: hình ảnh hạng nhất
+        custom_image_2: hình ảnh hạng hai
+        custom_image_3: hình ảnh hạng ba
+      votes:
+        points_title: Điểm
+        points_placeholder: "Điểm: "
+        color_holder: '#ffffff'
+        auto_upvote: Tự động đẩy lây khi đăng trả lời
+        title: Đánh giá
+        vote_color: Màu đánh giá
+        icon_name: Biểu tượng đẩy lên/dìm xuống
+        icon_help: "Nhập bất kỳ biểu tượng Font-Awesome nào có hậu tố -up và -down. Ví dụ: mũi tên, ngón tay cái, chevron"
+      save_settings: Lưu cài đặt
+      convert:
+        button: Chuyển đổi lượt thích sang đẩy lên
+        help: Chuyển đổi lượt thích trước đó của bạn từ lượt thích flarum-ext thành lượt thích, cũng như tính độ nóng cho tất cả các cuộc thảo luận hiện tại.
+        converting: Lượt thích của bạn hiện đang được chuyển đổi. Làm mới trang web của bạn sau một vài phút để xem quá trình hoàn tất. (Thời gian chuyển đổi có thể mất một lúc tùy thuộc vào tổng số lượt thích trên diễn đàn của bạn)
+        converted: "Chuyển đổi thành công tất cả {number} lượt thích"
+      ranks:
+        title: Xếp hạng
+        ranks: Tùy chỉnh xếp hạng
+        number_title: Có bao nhiêu huy hiệu xếp hạng nên được hiển thị?
+        help:
+          color: '#ffffff'
+          help: "Nhập số lượng đẩy lên cần thiết, tên của thứ hạng và màu hex của thứ hạng"
+          points: Điểm
+          name: Tên

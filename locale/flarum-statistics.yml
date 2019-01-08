@@ -1,0 +1,20 @@
+flarum-statistics:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Statistics dashboard widget.
+    statistics:
+      active_users_text: "{count} hoạt động"
+      discussions_heading: => core.ref.discussions
+      last_12_months_label: 12 tháng gần nhất
+      last_28_days_label: 28 ngày gần đây
+      last_7_days_label: 7 ngày gần đây
+      posts_heading: => core.ref.posts
+      today_label: Hôm này
+      total_label: Tổng số
+      users_heading: => core.ref.users
