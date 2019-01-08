@@ -1,0 +1,104 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: Xóa chủ đề
+      delete_tag_confirmation: "Bạn có chắc chắn muốn xóa chủ đề này không? Các câu hỏi trong chủ đề sẽ KHÔNG bị xóa."
+      description_label: Mô tả
+      hide_label: Ẩn khỏi tất cả các câu hỏi
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Quản lý danh sách các chủ đề có sẵn để tổ chức các câu hỏi với.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Cho phép sửa chủ đề
+      restrict_by_tag_heading: Hạn chế bằng chủ đề
+      tag_discussions_label: Chủ đề câu hỏi
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " đến "
+      required_primary_heading: Số lượng chủ đề chính tối thiểu
+      required_primary_text: Nhập số lượng chủ đề chính tối thiểu và tối đa có thể được áp dụng cho một câu hỏi.
+      required_secondary_heading: Số lượng chủ đề phụ tối thiểu
+      required_secondary_text: Nhập số lượng chủ đề phụ tối thiểu và tối đa có thể được áp dụng cho một câu hỏi.
+      title: Càu đặt chủ đề
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Chủ đề được sử dụng để phân loại các câu hỏi. Chủ đề chính giống như các loại diễn đàn truyền thống: chúng có thể được sắp xếp theo phân cấp hai cấp. Chủ đề phụ không có thứ bậc hoặc thứ tự và rất hữu ích cho phân loại vi mô."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Chủ đề chính
+      secondary_heading: Chủ đề phụ
+      settings_button: Cài đặt
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Chọn một chủ đề chính|Chọn {count} chủ đề chính"
+      choose_secondary_placeholder: "Chọn thêm một chủ đề phụ|Chọn thêm {count} chủ đề phụ"
+      edit_title: "Chỉnh sửa chủ đề {title}"
+      submit_button: => core.ref.okay
+      title: Chọn chủ đề cho câu hỏi
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Chọn chủ đề
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Sửa chủ đề
+
+    header:
+      back_to_tags_tooltip: Trờ về danh sách chủ đề
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Thêm...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Đã bỏ chủ đề
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username} đã thêm {tagsAdded} và xóa {tagsRemoved}."
+      added_tags_text: "{username} đã thêm {tagsAdded}."
+      removed_tags_text: "{username} đã xóa {tagsRemoved}."
+      tags_text: "{tags} chủ đề|{tags} chủ đề"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Đã xóa
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Tạo chủ đề
+    name: Tên
+    tags: Chủ đề

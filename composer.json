@@ -1,0 +1,26 @@
+{
+    "name": "conikal/lang-vietnamese",
+    "type": "flarum-extension",
+    "description": "Vietnamese language pack for Flarum.",
+    "homepage": "https://toitomo.com/",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Vietnamese",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Vietnamese"
+        }
+    }
+}
