@@ -2,13 +2,17 @@
 
 > **Read-only archive of released versions of conikal/lang-vietnamese.** Not for installation: use [Packagist](https://packagist.org/packages/conikal/lang-vietnamese) or the [upstream repository](https://github.com/conikal/lang-vietnamese).
 
-**0** versions archived · Latest: [`0.02`](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.02) · License: `MIT` · Flarum: `^0.1.0-beta.8`
+**5** versions archived · Latest: [`0.02`](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.02) · License: `MIT` · Flarum: `^0.1.0-beta.8`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.0.1` | 2019-01-08 | `^0.1.0-beta.8` | [Browse](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.0.1) |
+| `0.0.2` | 2019-01-08 | `^0.1.0-beta.8` | [Browse](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.0.2) |
+| `0.0.3` | 2019-01-08 | `^0.1.0-beta.8` | [Browse](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.0.3) |
+| `0.0.4` | 2019-01-08 | `^0.1.0-beta.8` | [Browse](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.0.4) |
+| `0.02` | 2019-01-08 | `^0.1.0-beta.8` | [Browse](https://github.com/flarchive/conikal-lang-vietnamese/tree/archive/v0.02) |
 
 Catalog entry: [packages/conikal-lang-vietnamese.json](https://github.com/flarchive/archive-index/blob/main/packages/conikal-lang-vietnamese.json)
 
